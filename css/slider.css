@@ -1,0 +1,12 @@
+#slider { position: relative;}
+#slider div.slidelist {width: 940px; height: 290px;}
+#slider .slide {width: 940px; height: 290px;  background: #ffffff no-repeat left; position: absolute; text-align: center;}
+/*#slider .slidelist h1 {margin-left: 520px; margin-top: 70px; width: 360px; height: 42px; font-size: 42px; color: #ce3d5a; padding-bottom: 15px; background: url("../images/line.png") no-repeat bottom;}*/
+#slider .slidelist h1,
+#slider .slidelist p.h1
+ {font-size: 64px; line-height: inherit; color: #ce3d5a; margin-top: 60px; padding: 20px 0;}
+
+#slider .slidelist p {font: normal 18px/14px Lobster; color: #1567d3;}
+#slider .slide .slidedescription {margin-left: 520px; width: 360px; font-size: 12px; margin-top: 35px}
+#slider .left-bt { cursor: pointer; background: url("../images/slider-bt.png") top no-repeat; height: 45px; width: 27px; position: absolute; z-index: 100; top: 110px;}
+#slider .right-bt { cursor: pointer; background: url("../images/slider-bt.png") bottom no-repeat; height: 45px; width: 27px; position: absolute; z-index: 100; left: 900px; top: 110px;}

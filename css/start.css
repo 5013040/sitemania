@@ -1,0 +1,333 @@
+/* LANDING BISTRIY START */
+
+.bistriy-start h2{ font:italic bold 32px/32px Calibri;}
+
+.subtitle{
+	text-align: center;
+	font-style: italic;
+	}
+	.subtitle span.red{
+		color: #D5405E;
+		font-style: normal;
+		font-family: Lobster;
+		letter-spacing: 1px;
+	}
+	.subtitle h2,
+	.benefits h2{
+		color: #414141;
+		font-size: 32px;
+		/*text-transform: uppercase;*/
+		margin: 15px 0;
+		line-height: 36px;
+	}
+
+.packets{}	
+
+.packet{
+	float: left;
+	width: 31%;
+	margin: 0 10px;
+	padding: 15px 0;
+	color: #414141;
+	background: url("/images/bistriy/border-bot.png") repeat-x scroll 0 325px #EFEFEF;
+	text-align: center;
+	transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-webkit-transition: all .4s ease-in-out;
+	-ms-transition: all .4s ease-in-out;
+	}
+.packet:hover{
+	background: url("/images/bistriy/border-bot.png") repeat-x scroll 0 -10px #FFD8B3;
+	}
+	
+	.packet h3{
+		font-size: 20px;
+		text-transform: uppercase;
+		margin: 0 0 10px;
+	}
+	.packet img{
+		margin: 0 45px 15px;
+	}
+	.packet .strike{
+		font-size: 16px;
+		color: #808080;
+		text-decoration: line-through;
+	}
+	.packet .price{
+		font-size: 22px;
+		font-weight: 700;
+	}
+	.packet .currency{
+		font-size: 16px;
+		color: #FFF;
+		background: #EE9200;
+		padding: 10px;
+	}
+	.description{
+		padding: 10px 15px;
+		}
+	.description:hover{
+		color: inherit;
+	}
+		.description h4{
+			font-size: 18px;
+			text-transform: uppercase;
+			margin: 60px 0 0px;
+			}
+			.description p{
+				font-size: 14px;
+			}
+			.description.flags p{
+				margin: 0;
+				line-height: 16px;
+			}
+			.description ul{
+				font-size: 14px;
+				line-height: 24px;
+			}
+			.description .name{
+				float: left;
+				text-align: center;
+                width: 100%;
+                margin-top: 10px;
+			}
+			.description .price {
+				text-align: right;
+				float: right;
+			}
+			.description .order,
+			.submit,
+			.a-link.red{
+				color: #FFF;
+				padding: 8px 10px;
+				margin: 10px auto;
+				background: #D5405E;
+				
+			    /* fallback */
+			    background-color: #a82f47;
+
+			    /* Safari 4-5, Chrome 1-9 */
+			    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#D5405E), to(#a82f47));
+
+			    /* Safari 5.1, Chrome 10+ */
+			    background: -webkit-linear-gradient(top, #D5405E, #a82f47);
+
+			    /* Firefox 3.6+ */
+			    background: -moz-linear-gradient(top, #D5405E, #a82f47);
+
+			    /* IE 10 */
+			    background: -ms-linear-gradient(top, #D5405E, #a82f47);
+
+			    /* Opera 11.10+ */
+			    background: -o-linear-gradient(top, #D5405E, #a82f47);
+				
+				cursor: pointer;
+				border-radius: 5px;
+				font-size: 14px;
+				width: 200px;
+			}
+			.description .order:hover,
+			.submit:hover,
+			.a-link.red:hover{
+				color: #FFF;
+				
+			    /* fallback */
+			    background-color: #84192f;
+
+			    /* Safari 4-5, Chrome 1-9 */
+			    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#c42c4a), to(#84192f));
+
+			    /* Safari 5.1, Chrome 10+ */
+			    background: -webkit-linear-gradient(top, #c42c4a, #84192f);
+
+			    /* Firefox 3.6+ */
+			    background: -moz-linear-gradient(top, #c42c4a, #84192f);
+
+			    /* IE 10 */
+			    background: -ms-linear-gradient(top, #c42c4a, #84192f);
+
+			    /* Opera 11.10+ */
+			    background: -o-linear-gradient(top, #c42c4a, #84192f);
+			}
+			.a-link.red{
+				width: 250px;
+				font-size: 24px;
+				text-align: center;
+			}
+
+
+.benefits{
+	float: left;
+	margin: 40px 0;
+	}
+	.benefit{
+		float: left;
+		width: 31%;
+		height: 100px;
+		margin: 0 10px;
+		}
+		.benefit.site{
+			background: url("/images/bistriy/flag-site.png") no-repeat 0 25px;
+		}
+		.benefit.services{
+			background: url("/images/bistriy/flag-services.png") no-repeat 0 25px;
+		}
+		.benefit.kontekst{
+			background: url("/images/bistriy/flag-kontekst.png") no-repeat 0 25px;
+		}
+		.benefit h3{
+			border-bottom: 1px solid #D5405E;
+			color: #D5405E;
+			font-size: 16px;
+			font-weight: 100;
+			line-height: 24px;
+			text-transform: uppercase;
+			margin: 0;
+		}
+		.description.flags{
+			margin-left: 60px;
+		}
+
+.add-services{
+	float: left;
+	margin-top: 50px;
+	}
+	.service{
+		float: left;
+		width: 190px;
+		margin: 0 5px;
+		padding: 0 10px;
+		text-align: left;
+		}
+		.service h3{
+			line-height: 36px;
+			border-bottom: 1px solid #D5405E;
+			font-size: 16px;
+			font-weight: 100;
+			text-transform: uppercase;
+			margin: 0;
+		}
+		.service.original h3{
+			color: #D5405E;
+			border-bottom: 1px solid #FFF;
+		}
+		.service.original{
+			background: #EFEFEF;
+		}
+		.service.original .description{
+			color: #D5405E;
+		}
+		.service.discount h3{
+			border-bottom: 1px solid #FFF;
+		}
+		.service.discount{
+			color: #FFF;
+			background: #D5405E;
+		}
+		.service.discount .description{
+			color: #FFF;
+		}
+
+.main-description{
+	float: left;
+	margin: 40px 0;
+	}
+	.description-text{
+		margin: 0 10px;
+		padding: 10px 15px;
+		text-align: justify;
+		line-height: 24px;
+		background: #EFEFEF;
+		}
+		.description-text ul{
+			list-style: square;
+			font-style: italic;
+			margin-left: 40px;
+		}
+	
+.place-order{
+	float: left;
+	margin: 40px 0;
+	}
+	.contacts-text{}
+		.phones{
+			float: left;
+			font-size: 18px;
+			line-height: 24px;
+			margin-right: 40px;
+			width: 220px;
+			}
+			.phones span.tel{font-size: 24px;}
+			.phones span.email{color: #D5405E}
+			.phones a{color: #000;}
+			.phones a:hover{color: #D5405E; text-decoration: none;}
+			.phones a span.dog{color: #D5405E;}
+			.phones a span.dog:hover{color: #000;}
+		
+		.CTA-button{}
+			.a-link{
+				padding: 10px;
+				display: block;
+				font-size: 24px;
+			}
+			
+.visible {
+	display: block;
+	width: 300px;
+	
+	  /* fallback */
+	  background-color: #f3f7fa;
+
+	  /* Safari 4-5, Chrome 1-9 */
+	  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f3f7fa), to(#c7d2e0));
+
+	  /* Safari 5.1, Chrome 10+ */
+	  background: -webkit-linear-gradient(top, #f3f7fa, #c7d2e0);
+
+	  /* Firefox 3.6+ */
+	  background: -moz-linear-gradient(top, #f3f7fa, #c7d2e0);
+
+	  /* IE 10 */
+	  background: -ms-linear-gradient(top, #f3f7fa, #c7d2e0);
+
+	  /* Opera 11.10+ */
+	  background: -o-linear-gradient(top, #f3f7fa, #c7d2e0);
+
+	position: fixed;
+	z-index: 2999;
+	text-align: center;
+	padding: 10px 30px;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+
+.hide-layout {
+	bottom: 0;
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50); /* прозрачность для IE */
+	height: 100%;
+	opacity: 0.5;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 2998;
+	cursor: pointer;
+	background: #000;
+}
+
+.btn-close{
+	width: 14px;
+	height: 14px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+	background: url('/images/bistriy/pp-close.png');
+}
+
+.btn-close:hover{background: url('/images/bistriy/pp-close-hover.png');}
+
+.startok{
+    display:none;
+}
